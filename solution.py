@@ -12,4 +12,4 @@ def solution(x_success: int,
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
     
-    return (abs(y_success/y_cnt - x_success/x_cnt) > 0.05) # Ваш ответ, True или False
+    return (y_success/y_cnt - x_success/x_cnt > 0.05) # Ваш ответ, True или False
